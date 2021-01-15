@@ -1,0 +1,9 @@
+<launch>
+
+  <!--- Run Provide Map -->
+  <include file="$(find students_gmapping)/launch/provide_map.launch" />
+
+  <!--- Run AMCL -->
+  <include file="$(find students_package)/launch/amcl.launch" />
+
+</launch>
