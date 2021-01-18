@@ -1,6 +1,10 @@
 global_frame: map
+static_map: true
 rolling_window: false
 track_unknown_space: true
+update_frequency: 1.0
+publish_frequency: 0.5
+transform_tolerance: 1.0
 
 plugins:
   - {name: static,                  type: "costmap_2d::StaticLayer"}
