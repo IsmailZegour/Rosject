@@ -4,6 +4,9 @@
   <include file="$(find students_gmapping)/launch/provide_map.launch" />
 
   <!--- Run AMCL -->
-  <include file="$(find students_package)/launch/amcl.launch" />
+  <!--->include file="$(find students_package)/launch/amcl.launch" /-->
+
+  <!--- Run Path Planning -->
+  <include file="$(find students_move_base_launcher)/launch/move_base.launch" />
 
 </launch>
