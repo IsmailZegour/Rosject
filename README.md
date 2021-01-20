@@ -9,7 +9,7 @@ Marouane KHANDALI | Pierre BOURDEAU | Ismail ZEGOUR - Gr 15
 ```bash
 rm -rf ~/catkin_ws
 rm -rf ~/simulation_ws
-git clone https://github.com/MikUwU/LARM.git ~/catkin_ws
+git clone https://github.com/mar1git/ROSject.git ~/catkin_ws
 git clone https://github.com/ceri-num/LARM-RDS-Simulation-WS.git ~/simulation_ws
 cd ~/catkin_ws/
 catkin_make
