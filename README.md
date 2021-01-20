@@ -28,13 +28,13 @@ source devel/setup.bash
 
 # CHALL 1
 
-- WebShell #1 : `roslaunch larm challenge-1.launch`
+- WebShell #1 : `roslaunch larm challendge-1.launch`
 
-- WebShell #2 : `roslaunch challenge challenge-1.1.launch`
+- WebShell #2 : `roslaunch students_package navigation.launch`
 
-- WebShell #3 : `rviz`
+- WebShell #3 : `rosrun rviz rviz`
 
-- Dans rviz : File -> Open Config -> Open "/home/user/catkin_ws/rviz/map.rviz"
+- Dans rviz : File -> Open Config -> Open "/home/user/catkin_ws/rviz/challenge1.rviz"
 
 - Naviguer avec la carte dans rviz...
 
