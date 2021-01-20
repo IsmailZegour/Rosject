@@ -1,7 +1,7 @@
-# PARTICIPANTS
+# AUTORS
 Marouane KHANDALI | Pierre BOURDEAU | Ismail ZEGOUR - Gr 15
 
-# Installation
+# INSTALLATION
 
 - Créer un ROSJect Kinetic
 
@@ -26,11 +26,9 @@ cd ~/simulation_ws/
 source devel/setup.bash
 ```
 
-# Challenge 1
+# CHALL 1
 
 - WebShell #1 : `roslaunch larm challenge-1.launch`
-
-## Avec Map
 
 - WebShell #2 : `roslaunch challenge challenge-1.1.launch`
 
@@ -42,6 +40,6 @@ source devel/setup.bash
 
 
 
-# Challenge 2
+# CHALL 2
 
 En cours...
