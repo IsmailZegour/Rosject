@@ -51,6 +51,8 @@ source devel/setup.bash
 
 - Naviguer avec la carte dans rviz...
 
+En cours...
+
 
 # CHALL 3
 
