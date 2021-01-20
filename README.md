@@ -47,7 +47,7 @@ source devel/setup.bash
 
 - WebShell #3 : `rosrun rviz rviz`
 
-- Dans rviz : File -> Open Config -> Open "/home/user/catkin_ws/rviz/challenge1.rviz"
+- Dans rviz : File -> Open Config -> Open "/home/user/catkin_ws/rviz/challenge2.rviz"
 
 - Naviguer avec la carte dans rviz...
 
