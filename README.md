@@ -41,6 +41,8 @@ source devel/setup.bash
 
 # CHALL 2
 
+(En cours...)
+
 - WebShell #1 : `roslaunch larm challendge-2.launch`
 
 - WebShell #2 : `roslaunch students_package vision.launch`
@@ -50,8 +52,6 @@ source devel/setup.bash
 - Dans rviz : File -> Open Config -> Open "/home/user/catkin_ws/rviz/challenge2.rviz"
 
 - Naviguer avec la carte dans rviz...
-
-En cours...
 
 
 # CHALL 3
