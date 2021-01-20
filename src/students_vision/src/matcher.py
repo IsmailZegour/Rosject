@@ -23,7 +23,7 @@ class LoadFeature(object):
             print(e)
         
 
-        image_1 = cv2.imread('/home/user/catkin_ws/src/vision/coke.png',1)
+        image_1 = cv2.imread('/home/user/catkin_ws/src/students_vision/coke.png',1)
         image_2 = cv_image
         
         image_1 = cv2.resize(cv_image,(300,200))
