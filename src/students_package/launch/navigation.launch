@@ -1,6 +1,6 @@
 <launch>
 
-  <!--- Run Provide Map -->
+  <!--- Run provide_map -->
   <include file="$(find students_gmapping)/launch/provide_map.launch" />
 
   <!--- Run AMCL -->

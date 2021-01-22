@@ -2,8 +2,10 @@
     ROS navigation stack with velocity smoother and safety (reactive) controller
 -->
 <launch>
-<!-- <include file="$(find students_move_base_launcher)/launch/includes/velocity_smoother.launch.xml"/>
-  <include file="$(find students_move_base_launcher)/launch/includes/safety_controller.launch.xml"/>
+<!-- <include file="$(find students_move_base_launcher
+)/launch/includes/velocity_smoother.launch.xml"/>
+  <include file="$(find students_move_base_launcher
+  )/launch/includes/safety_controller.launch.xml"/>
   -->
   
   <arg name="odom_frame_id"   default="odom"/>
