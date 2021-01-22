@@ -28,7 +28,7 @@ source devel/setup.bash
 
 # CHALL 1
 
-- WebShell #1 : `roslaunch larm challendge-1.launch`
+- WebShell #1 : `roslaunch larm challenge-1.launch`
 
 - WebShell #2 : `roslaunch students_package navigation.launch`
 
@@ -43,7 +43,7 @@ source devel/setup.bash
 
 (En cours...)
 
-- WebShell #1 : `roslaunch larm challendge-2.launch`
+- WebShell #1 : `roslaunch larm challenge-2.launch`
 
 - WebShell #2 : `roslaunch students_package vision.launch`
 
