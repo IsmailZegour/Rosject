@@ -1,5 +1,5 @@
 # AUTORS
-Marouane KHANDALI | Pierre BOURDEAU | Ismail ZEGOUR - Gr 15
+Marouane KHANDALI | Pierre BOURDEAU | Ismail ZEGOUR - Gr 1
 
 # INSTALLATION
 
