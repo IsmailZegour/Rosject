@@ -18,13 +18,6 @@ cd ~/simulation_ws/
 catkin_make
 source devel/setup.bash
 ```
-- Dans WebShell #2 et #3 :
-```bash
-cd ~/catkin_ws/
-source devel/setup.bash
-cd ~/simulation_ws/
-source devel/setup.bash
-```
 
 # CHALL 1
 
@@ -40,8 +33,6 @@ source devel/setup.bash
 
 
 # CHALL 2
-
-(En cours...)
 
 - WebShell #1 : `roslaunch larm challenge-2.launch`
 
