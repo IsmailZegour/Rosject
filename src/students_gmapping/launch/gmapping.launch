@@ -1,6 +1,0 @@
-<launch>
-
-  <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="screen">
-  <rosparam file="$(find students_gmapping)/params/gmapping.yaml" command="load" />
-  </node>
-</launch>

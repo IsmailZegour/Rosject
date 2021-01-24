@@ -5,3 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
+subdirs(gmapping_package)
+subdirs(move_base_package)
+subdirs(student_package)
+subdirs(vision_package)

@@ -266,6 +266,12 @@ _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 
 //Value Computed by CMake
+gmapping_package_BINARY_DIR:STATIC=/home/user/catkin_ws/build/gmapping_package
+
+//Value Computed by CMake
+gmapping_package_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/gmapping_package
+
+//Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/user/catkin_ws/build/gtest
 
 //Dependencies for the target
@@ -304,6 +310,51 @@ gtest_force_shared_crt:BOOL=OFF
 
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
+
+//Value Computed by CMake
+move_base_package_BINARY_DIR:STATIC=/home/user/catkin_ws/build/move_base_package
+
+//Value Computed by CMake
+move_base_package_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/move_base_package
+
+//The directory containing a CMake configuration file for rospy.
+rospy_DIR:PATH=/opt/ros/kinetic/share/rospy/cmake
+
+//Value Computed by CMake
+student_package_BINARY_DIR:STATIC=/home/user/catkin_ws/build/student_package
+
+//Value Computed by CMake
+student_package_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/student_package
+
+//Value Computed by CMake
+students_gmapping_BINARY_DIR:STATIC=/home/user/catkin_ws/build/gmapping_package
+
+//Value Computed by CMake
+students_gmapping_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/gmapping_package
+
+//Value Computed by CMake
+students_move_base_launcher_BINARY_DIR:STATIC=/home/user/catkin_ws/build/move_base_package
+
+//Value Computed by CMake
+students_move_base_launcher_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/move_base_package
+
+//Value Computed by CMake
+students_package_BINARY_DIR:STATIC=/home/user/catkin_ws/build/student_package
+
+//Value Computed by CMake
+students_package_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/student_package
+
+//Value Computed by CMake
+students_vision_BINARY_DIR:STATIC=/home/user/catkin_ws/build/students_vision
+
+//Value Computed by CMake
+students_vision_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/students_vision
+
+//Value Computed by CMake
+vision_package_BINARY_DIR:STATIC=/home/user/catkin_ws/build/vision_package
+
+//Value Computed by CMake
+vision_package_SOURCE_DIR:STATIC=/home/user/catkin_ws/src/vision_package
 
 
 ########################
@@ -407,7 +458,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

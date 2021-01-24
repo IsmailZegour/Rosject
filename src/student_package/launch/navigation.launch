@@ -1,0 +1,12 @@
+<launch>
+
+  <!--- Run provide_map -->
+  <include file="$(find gmapping_package)/launch/provide_map.launch" />
+
+  <!--- Run AMCL -->
+  <include file="$(find student_package)/launch/amcl.launch" />
+
+  <!--- Run Move Base -->
+  <include file="$(find move_base_package)/launch/move_base.launch" />
+
+</launch>

@@ -1,0 +1,21 @@
+<launch>
+    <!-- NAVIGATION -->
+        <!-- gmapping -->
+        <include file="$(find gmapping_package)/launch/gmapping.launch" />
+        <!-- move_base -->
+        <include file="$(find move_base_package)/launch/move_base.launch" />
+    <!-- BOTTLE -->
+        <!-- bottle service server -->
+        <node 
+            pkg="vision_package"
+            type="bottle_service_server.py"
+            name="bottle_service_server"
+            output="screen">
+        </node>
+        <!-- bottle CV -->
+        <node 
+            pkg="vision_package"
+            type="matcher.py"
+            name="matcher">
+        </node>
+</launch>
