@@ -3,7 +3,7 @@ Marouane KHANDALI | Pierre BOURDEAU | Ismail ZEGOUR - Gr 1
 
 # INSTALLATION
 
-- Créer un ROSJect Kinetic
+- Create a Kinetic ROSJect
 
 - Dans WhebShell #1 : 
 ```bash
@@ -29,20 +29,22 @@ source devel/setup.bash
 
 - Dans rviz : File -> Open Config -> Open "/home/user/catkin_ws/rviz/challenge1.rviz"
 
-- Naviguer avec la carte dans rviz...
+- Control the turtlebot via RVIZ...
 
 
 # CHALL 2
 
 - WebShell #1 : `roslaunch larm challenge-2.launch`
 
-- WebShell #2 : `roslaunch students_package vision.launch`
+- WebShell #2 : `roslaunch students_package mapping.launch`
 
 - WebShell #3 : `rosrun rviz rviz`
 
 - Dans rviz : File -> Open Config -> Open "/home/user/catkin_ws/rviz/challenge2.rviz"
 
-- Naviguer avec la carte dans rviz...
+- Control the turtlebot via RVIZ...
+
+- Bottles position is published in the /bottle topic : `rostopic echo /bottle`
 
 
 # CHALL 3
