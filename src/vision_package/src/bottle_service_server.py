@@ -7,7 +7,7 @@ from move_base_msgs.msg import MoveBaseAction, MoveBaseActionFeedback
 
 def my_callback(request):
     global pose_result
-    print "[ BOTTLE ] Found at :"
+    print "BOTTLE trouvé en :"
     print pose_result
     return EmptyResponse()
 
