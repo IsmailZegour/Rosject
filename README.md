@@ -23,7 +23,7 @@ source devel/setup.bash
 
 - WebShell #1 : `roslaunch larm challenge-1.launch`
 
-- WebShell #2 : `roslaunch students_package navigation.launch`
+- WebShell #2 : `roslaunch student_package navigation.launch`
 
 - WebShell #3 : `rosrun rviz rviz`
 
@@ -36,7 +36,7 @@ source devel/setup.bash
 
 - WebShell #1 : `roslaunch larm challenge-2.launch`
 
-- WebShell #2 : `roslaunch students_package mapping.launch`
+- WebShell #2 : `roslaunch student_package mapping.launch`
 
 - WebShell #3 : `rosrun rviz rviz`
 
