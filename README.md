@@ -47,6 +47,3 @@ source devel/setup.bash
 - Bottles position is published in the /bottle topic : `rostopic echo /bottle`
 
 
-# CHALL 3
-
-Work in progress...
